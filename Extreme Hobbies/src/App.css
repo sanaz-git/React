@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
