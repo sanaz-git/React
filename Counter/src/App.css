@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(224, 221, 224);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30%;
+  height: 50%;
+}
+
+.button,
+.count {
+  background-color: #6240df;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 32px;
+  width: 150px;
+  margin: 4px 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+p {
+  margin-top: 20px;
+}
