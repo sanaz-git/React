@@ -12,10 +12,26 @@ body {
 .App {
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
 h1 {
   padding-top: 50px;
   padding-bottom: 20px;
+  color: #1b6de7;
+  font-family: zen loop, cursive;
+}
+
+.hobbyList {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  background-color: #1b6de7;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  color: white;
+  width: 50%;
+  font-family: zen loop, cursive;
+  line-height: 35px;
 }
