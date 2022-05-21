@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  background: rgb(245, 245, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 247, 1) 0%,
+    rgba(193, 182, 172, 1) 35%,
+    rgba(167, 179, 203, 1) 100%
+  );
+  font-family: zen loop, cursive;
+}
+.friend {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  background-color: #fdab72;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+}
+.friend li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  line-height: 25px;
+}
+
+.btn {
+  background-color: #fdab72;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fdab72;
+  color: black;
+  font-family: zen loop, cursive;
+}
+
+.dogImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin: 10px 5px 5px 10px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.joke {
+  padding: 20px;
+  background-color: #fdab72;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+}
